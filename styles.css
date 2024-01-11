@@ -41,4 +41,25 @@ body {
     width: 100%;
     height: auto;
   }
+
+  .rentals {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .rental {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #d5b875; 
+    border-radius: 10px;
+  }
+
+  .rental img {
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+  }
   
