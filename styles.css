@@ -96,6 +96,7 @@ textarea {
 button {
     background-color: #ff6347; 
     color: #fff;
+    font-size: medium;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -103,4 +104,33 @@ button {
   }
   button:hover {
     background-color: #dc143c; 
+  }
+
+  /* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+      padding: 5px;
+    }
+  
+    .hero {
+      padding: 20px 0 10px 0;
+    }
+  
+    .rentals {
+      flex-direction: column;
+      margin: 20px 0;
+     
+    }
+  
+    .rental {
+      width: 100%;
+    }
+
+    .rental img{
+        max-width: 100%;
+    }
+  
+    form {
+      max-width: 100%;
+    }
   }
