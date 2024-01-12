@@ -93,3 +93,11 @@ textarea {
   border-radius: 5px;
 }
 
+button {
+    background-color: #ff6347; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
